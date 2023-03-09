@@ -12,6 +12,7 @@ const nextConfig = {
   },
   images: {
     domains: [
+      'asset.cloudinary.com',
       'pickbazarlaravel.s3.ap-southeast-1.amazonaws.com',
       'pixarlaravel.s3.ap-southeast-1.amazonaws.com',
       'lh3.googleusercontent.com',
