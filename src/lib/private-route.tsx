@@ -2,7 +2,7 @@ import Loader from '@/components/ui/loaders/spinner/spinner';
 import { useRouter } from 'next/router';
 import { BackArrowRound } from '@/components/icons/back-arrow-round';
 import { useUser } from '@/framework/user';
-import LoginView from '@/components/auth/login-form';
+// import LoginView from '@/components/auth/login-form';
 
 const PrivateRoute: React.FC = ({ children }) => {
   const router = useRouter();
@@ -19,7 +19,7 @@ const PrivateRoute: React.FC = ({ children }) => {
           <BackArrowRound />
         </button>
         <div className="flex flex-col my-auto">
-          <LoginView />
+          {/* <LoginView /> */}
         </div>
       </div>
     );

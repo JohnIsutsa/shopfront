@@ -10,7 +10,7 @@ import { toast } from 'react-toastify';
 import client from './client';
 import { authorizationAtom } from '@/store/authorization-atom';
 import { useAtom } from 'jotai';
-import { signOut as socialLoginSignOut } from 'next-auth/react';
+// import { signOut as socialLoginSignOut } from 'next-auth/react';
 import { useToken } from '@/lib/hooks/use-token';
 import { API_ENDPOINTS } from './client/api-endpoints';
 import { useState } from 'react';
@@ -308,7 +308,7 @@ export function useLogout() {
     },
   });
   function handleLogout() {
-    socialLoginSignOut({ redirect: false });
+    // socialLoginSignOut({ redirect: false });
     signOut();
   }
   return {

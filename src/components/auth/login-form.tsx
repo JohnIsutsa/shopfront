@@ -1,4 +1,4 @@
-import { signIn } from 'next-auth/react';
+// import { signIn } from 'next-auth/react';
 import Logo from '@/components/ui/logo';
 import Alert from '@/components/ui/alert';
 import Input from '@/components/ui/forms/input';
@@ -92,7 +92,7 @@ function LoginForm() {
           className="!bg-social-google !text-light hover:!bg-social-google-hover"
           disabled={isLoading}
           onClick={() => {
-            signIn('google');
+            // signIn('google');
           }}
         >
           <GoogleIcon className="h-4 w-4 ltr:mr-3 rtl:ml-3" />
